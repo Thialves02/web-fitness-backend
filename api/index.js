@@ -18,7 +18,7 @@ app.use((req,res,next) => {
 dotenv.config();
 database();
 
-app.use("/api/users", routes)
+app.use("/", routes)
 
 const porta = 3001
 
